@@ -72,7 +72,7 @@
                             </div> 
                         @endif
                     @endforeach
-                @else
+                    @else
                     <div class="alert alert-info" role="alert">
                         not result
                     </div>

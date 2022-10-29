@@ -86,7 +86,6 @@ class publishersController extends Controller
             'name' => 'required',
         ]);
 
-        $publisher = new publisher();
         $publisher->name = $request->name;
         $publisher->address = $request->address;
         $publisher->save();
